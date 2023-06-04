@@ -20,7 +20,8 @@ class App extends Component{
     console.log('App add');
 
       const todoId = this.state.todoList.length + 1;
-      const todoObj = {todoId, todo}
+      console.log(todoId)
+      const todoObj = {id: todoId, todo: todo}
 
       const concatTodoList = this.state.todoList.concat(todoObj);
 

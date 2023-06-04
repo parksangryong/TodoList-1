@@ -9,6 +9,9 @@
     line-height: 25px;
     border-radius: 7px;
 }
+.input-comp input:focus{
+    font-weight: bold;
+}
 .input-comp button{
     width: 30px;
     height: 30px;

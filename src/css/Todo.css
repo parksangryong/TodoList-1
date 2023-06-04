@@ -30,6 +30,10 @@
     top: 5px;
     left: 50px;
 }
+.todo div:nth-child(2):hover{
+    transform: scale(1.1);
+    font-weight: bold;
+}
 .todo div:nth-child(3){
     right: 0;
     width: 150px;
