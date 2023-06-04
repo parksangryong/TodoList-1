@@ -1,0 +1,60 @@
+.todo{
+    position: relative;
+    width: 530px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: azure;
+}
+.todo div{
+    display: inline;
+    position: absolute;
+}
+.todo div:nth-child(1){
+    left: 10px;
+    top: 5px;
+}
+.todo .check{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(241, 220, 194);
+    border-radius: 50%;
+}
+.todo .td input{
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px dotted gray
+}
+.todo div:nth-child(2){
+    top: 5px;
+    left: 50px;
+}
+.todo div:nth-child(3){
+    right: 0;
+    width: 150px;
+    height: 35px;
+    background-color: whitesmoke;
+}
+.todo button{
+    position: absolute;
+    margin-left: 10px;
+    background-color: rgb(241, 222, 198);
+    width : 30px;
+    height: 30px;
+    color: gray;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.todo button:hover{
+    color: brown;
+    font-weight: bold;
+}
+.todo button:nth-child(1){
+    top: 2.5px;
+    right: 85px;
+}
+.todo button:nth-child(2){
+    top: 2.5px;
+    right: 30px;
+}
